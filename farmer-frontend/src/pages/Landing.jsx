@@ -296,7 +296,7 @@ export default function Landing() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Farmers Smart Help - NaapTol. All rights reserved.</p>
+            <p>&copy; 2027 Farmers Smart Help - NaapTol. All rights reserved.</p>
           </div>
         </div>
       </footer>
