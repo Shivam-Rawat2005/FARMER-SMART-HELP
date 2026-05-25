@@ -32,8 +32,8 @@ export default function Landing() {
       {/* Animated Background */}
       <div className="fixed inset-0 -z-10 overflow-hidden">
         <div className="absolute top-0 left-0 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20" style={{animationDelay: '2s'}}></div>
-        <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20" style={{animationDelay: '4s'}}></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20" style={{ animationDelay: '4s' }}></div>
       </div>
 
       {/* Navigation Bar */}
@@ -98,7 +98,7 @@ export default function Landing() {
             <h2 className="text-5xl font-bold text-gray-900 mb-4">Powerful Features</h2>
             <p className="text-xl text-gray-600">Everything you need to succeed</p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature, idx) => {
               const Icon = feature.icon;
@@ -120,7 +120,7 @@ export default function Landing() {
       <section className="px-8 py-20 bg-gradient-to-r from-emerald-500 via-green-500 to-cyan-500">
         <div className="max-w-6xl mx-auto text-white">
           <h2 className="text-5xl font-bold text-center mb-16">Why 50K+ Farmers Trust NaapTol</h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 transition">
               <Zap className="w-10 h-10 mb-4 text-yellow-300" />
@@ -165,7 +165,7 @@ export default function Landing() {
       <section className="px-8 py-20 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16 text-gray-900">What Farmers Say</h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, idx) => (
               <div key={idx} className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl border-2 border-blue-100 hover:shadow-xl transition">
@@ -189,7 +189,7 @@ export default function Landing() {
       <section className="px-8 py-20 bg-gradient-to-b from-purple-50 to-pink-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16 text-gray-900">FAQ</h2>
-          
+
           <div className="space-y-4">
             {faqs.map((faq, idx) => (
               <div key={idx} className="bg-white rounded-xl border-2 border-purple-200 overflow-hidden hover:shadow-lg transition">
@@ -296,7 +296,7 @@ export default function Landing() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 NaapTol - Farmers Smart Help. All rights reserved.</p>
+            <p>&copy; 2026 Farmers Smart Help - NaapTol. All rights reserved.</p>
           </div>
         </div>
       </footer>
