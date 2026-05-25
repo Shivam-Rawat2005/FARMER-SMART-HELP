@@ -1,6 +1,8 @@
+import 'dotenv/config';
+import dns from 'dns';
+dns.setServers(['1.1.1.1', '8.8.8.8']);
 import express from 'express';
 import { createServer } from 'http';
-import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './config/database.js';
 import { initializeSocket } from './socket.js';
@@ -15,8 +17,6 @@ import weatherRoutes from './routes/weather.js';
 import chatRoutes from './routes/chat.js';
 import orderRoutes from './routes/order.js';
 
-// Load env vars
-dotenv.config();
 
 // Connect to database
 connectDB();
